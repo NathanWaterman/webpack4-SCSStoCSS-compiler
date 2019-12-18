@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./dist/app.bundle.min.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.12",
+    "copy-webpack-plugin": "^5.0.2",
+    "papaparse": "^4.5.0",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  }
+}
